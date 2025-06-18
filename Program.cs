@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-// texte feito
-//on
-// texte feito
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!");
+Console.WriteLine("This is a simple C# program.");
+Console.WriteLine("It prints messages to the console.");   
+
+Console.WriteLine("Press any key to exit...");
