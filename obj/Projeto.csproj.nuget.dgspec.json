@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jlnj/Área de Trabalho/Projeto/Projeto.csproj": {}
+    "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj": {}
   },
   "projects": {
-    "/home/jlnj/Área de Trabalho/Projeto/Projeto.csproj": {
+    "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jlnj/Área de Trabalho/Projeto/Projeto.csproj",
+        "projectUniqueName": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj",
         "projectName": "Projeto",
-        "projectPath": "/home/jlnj/Área de Trabalho/Projeto/Projeto.csproj",
+        "projectPath": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj",
         "packagesPath": "/home/jlnj/.nuget/packages/",
-        "outputPath": "/home/jlnj/Área de Trabalho/Projeto/obj/",
+        "outputPath": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jlnj/.nuget/NuGet/NuGet.Config"
