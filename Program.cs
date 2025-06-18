@@ -11,13 +11,11 @@ namespace GerenciadorTarefas
             {
                 Console.WriteLine("1 - Adicionar Tarefa");
                 Console.WriteLine("2 - Listar Tarefas");
-                Console.WriteLine("3 - Atualizar Tarefas");
-                Console.WriteLine("4 - Adicionar Tarefa");
-                Console.WriteLine("5 - Adicionar Tarefa");
-                Console.WriteLine("6 - Adicionar Tarefa");
-                Console.WriteLine("4 - Adicionar Tarefa");
-                Console.WriteLine("5 - Adicionar Tarefa");
-                Console.WriteLine("6 - Adicionar Tarefa");
+                Console.WriteLine("3 - Atualizar status Tarefas");
+                Console.WriteLine("4 - Remover tarefa");
+                Console.WriteLine("5 - Filtar tarefa por status");
+                Console.WriteLine("0 - Sair");
+               
 
             }
 
