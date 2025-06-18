@@ -16,7 +16,7 @@ namespace GerenciadorTarefas
                 Console.WriteLine("5 - Filtar tarefa por status");
                 Console.WriteLine("0 - Sair");
 
-                Console.Write("\nDigite a opção");
+                Console.Write("\nDigite a opção: ");
                 string opcaoEscolhida = Console.ReadLine()!;
                 int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
@@ -24,13 +24,20 @@ namespace GerenciadorTarefas
                 {
                     case 1: AdicionarTarefa();
                         break;
+                    case 0: Console.WriteLine("Fim do Programa !!");
+                        break;
+                    default: Console.WriteLine("\nopçao invalida");
+                        Thread.Sleep(2000);
+                        Console.Clear();
+                        ExibirOpcoesMenu();
+                        break;
                 }
 
             }
 
             void AdicionarTarefa()
             {
-
+                
             }
 
             ExibirOpcoesMenu();
