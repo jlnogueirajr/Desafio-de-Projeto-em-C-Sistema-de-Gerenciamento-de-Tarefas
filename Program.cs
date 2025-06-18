@@ -15,7 +15,7 @@ namespace GerenciadorTarefas
                 Console.WriteLine("4 - Adicionar Tarefa");
                 Console.WriteLine("5 - Adicionar Tarefa");
                 Console.WriteLine("6 - Adicionar Tarefa");
-                                Console.WriteLine("4 - Adicionar Tarefa");
+                Console.WriteLine("4 - Adicionar Tarefa");
                 Console.WriteLine("5 - Adicionar Tarefa");
                 Console.WriteLine("6 - Adicionar Tarefa");
 
