@@ -2,6 +2,10 @@
 {
     public class Gerenciador
     {
+        //Dentro do gerenciador serao adiocionadas todas as funçoes do programa
+        //onde sera criado um objeto gerenciador no Program.cs onde sera chamada as
+        //funções pelo menu
+
         List<Tarefa> tarefas = new List<Tarefa>();//Lista para aarmazenar as tarefas
         int Id = 1;
 
