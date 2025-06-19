@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto.Modulos;
+using System;
 using System.Globalization;
 
 namespace GerenciadorTarefas
@@ -7,6 +8,8 @@ namespace GerenciadorTarefas
     {
         static void Main(string[] args)
         {
+            Gerenciador gerenciador = new Gerenciador();
+
             void ExibirOpcoesMenu()
             {
                 Console.WriteLine("1 - Adicionar Tarefa");
@@ -22,8 +25,23 @@ namespace GerenciadorTarefas
 
                 switch(opcaoEscolhidaNumerica)
                 {
-                    case 1: AdicionarTarefa();
+                    case 1:
+                        Console.Write("Digite a descrição da tarefa: ");
+                        string descricao = Console.ReadLine();
+                        gerenciador.AdicionarTarefa(descricao);
+                        Thread.Sleep(2000);
+                        Console.WriteLine("Tarefa adicionada com sucesso");
+                        Thread.Sleep(2000);
+                        Console.WriteLine("Tecle ENTER para voltar ao menu");
+                        Console.ReadLine();
+                        Console.Clear();
+                        ExibirOpcoesMenu();
                         break;
+
+                    case 2:gerenciador.ListarTarefas(); 
+                        break;
+
+
                     case 0: Console.WriteLine("Fim do Programa !!");
                         break;
                     default: Console.WriteLine("\nopçao invalida");
@@ -35,10 +53,6 @@ namespace GerenciadorTarefas
 
             }
 
-            void AdicionarTarefa()
-            {
-                
-            }
 
             ExibirOpcoesMenu();
 
