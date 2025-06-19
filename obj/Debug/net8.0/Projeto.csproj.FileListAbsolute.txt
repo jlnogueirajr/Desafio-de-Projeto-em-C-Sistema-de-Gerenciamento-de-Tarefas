@@ -12,3 +12,18 @@
 /home/jlnj/Área de Trabalho/Projeto/obj/Debug/net8.0/Projeto.pdb
 /home/jlnj/Área de Trabalho/Projeto/obj/Debug/net8.0/Projeto.genruntimeconfig.cache
 /home/jlnj/Área de Trabalho/Projeto/obj/Debug/net8.0/ref/Projeto.dll
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\bin\Debug\net8.0\Projeto.exe
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\bin\Debug\net8.0\Projeto.deps.json
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\bin\Debug\net8.0\Projeto.runtimeconfig.json
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\bin\Debug\net8.0\Projeto.dll
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\bin\Debug\net8.0\Projeto.pdb
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.AssemblyInfoInputs.cache
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.AssemblyInfo.cs
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.csproj.CoreCompileInputs.cache
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.sourcelink.json
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.dll
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\refint\Projeto.dll
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.pdb
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\Projeto.genruntimeconfig.cache
+C:\Users\Xabloncio\Desktop\projeto\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\obj\Debug\net8.0\ref\Projeto.dll

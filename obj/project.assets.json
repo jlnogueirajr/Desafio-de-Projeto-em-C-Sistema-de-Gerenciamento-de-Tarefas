@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/jlnj/.nuget/packages/": {}
+    "C:\\Users\\Xabloncio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj",
+      "projectUniqueName": "C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\Projeto.csproj",
       "projectName": "Projeto",
-      "projectPath": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/Projeto.csproj",
-      "packagesPath": "/home/jlnj/.nuget/packages/",
-      "outputPath": "/home/jlnj/Área de Trabalho/C#_ Sistema_Gerenciamento_de_Tarefas/obj/",
+      "projectPath": "C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\Projeto.csproj",
+      "packagesPath": "C:\\Users\\Xabloncio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jlnj/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Xabloncio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +51,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
