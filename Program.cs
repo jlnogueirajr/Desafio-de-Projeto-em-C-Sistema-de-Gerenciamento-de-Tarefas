@@ -8,7 +8,15 @@ namespace GerenciadorTarefas
     {
         static void Main(string[] args)
         {
-            Gerenciador gerenciador = new Gerenciador();
+            Gerenciador gerenciador = new Gerenciador();//criando um objeto gerenciador para usar as funcoes
+
+            void Titulo()
+            {
+                Console.WriteLine(@"
+                ░█▀▀█ █▀▀ █▀▀█ █▀▀ █▀▀▄ █▀▀ ─▀─ █▀▀█ █▀▀▄ █▀▀█ █▀▀█ 　 █▀▀▄ █▀▀ 　 ▀▀█▀▀ █▀▀█ █▀▀█ █▀▀ █▀▀ █▀▀█ █▀▀ 
+                ░█─▄▄ █▀▀ █▄▄▀ █▀▀ █──█ █── ▀█▀ █▄▄█ █──█ █──█ █▄▄▀ 　 █──█ █▀▀ 　 ─░█── █▄▄█ █▄▄▀ █▀▀ █▀▀ █▄▄█ ▀▀█ 
+                ░█▄▄█ ▀▀▀ ▀─▀▀ ▀▀▀ ▀──▀ ▀▀▀ ▀▀▀ ▀──▀ ▀▀▀─ ▀▀▀▀ ▀─▀▀ 　 ▀▀▀─ ▀▀▀ 　 ─░█── ▀──▀ ▀─▀▀ ▀▀▀ ▀── ▀──▀ ▀▀▀"+"\n");
+            }
 
             void ExibirOpcoesMenu()
             {
@@ -26,19 +34,22 @@ namespace GerenciadorTarefas
                 switch(opcaoEscolhidaNumerica)
                 {
                     case 1:
-                        Console.Write("Digite a descrição da tarefa: ");
+                        Console.Write("\nDigite a descrição da tarefa:");
                         string descricao = Console.ReadLine();
                         gerenciador.AdicionarTarefa(descricao);
                         Thread.Sleep(2000);
-                        Console.WriteLine("Tarefa adicionada com sucesso");
+                        Console.WriteLine("\nSua tarefa foi adicionada com sucesso\n");
                         Thread.Sleep(2000);
-                        Console.WriteLine("Tecle ENTER para voltar ao menu");
+                        Console.WriteLine("Tecle ENTER para voltar ao menu !!");
                         Console.ReadLine();
                         Console.Clear();
                         ExibirOpcoesMenu();
                         break;
 
-                    case 2:gerenciador.ListarTarefas(); 
+                    case 2:gerenciador.ListarTarefas();
+                        Thread.Sleep(2000);
+                        Console.Clear();
+                        ExibirOpcoesMenu();
                         break;
 
 
@@ -53,7 +64,7 @@ namespace GerenciadorTarefas
 
             }
 
-
+            Titulo();
             ExibirOpcoesMenu();
 
         }
