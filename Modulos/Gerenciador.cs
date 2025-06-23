@@ -10,7 +10,7 @@ namespace Projeto.Modulos
         //onde sera criado um objeto gerenciador no Program.cs onde sera chamada as
         //funções pelo menu
 
-        string caminhoJson = "C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\tarefas.json";//Caminho de arquivo em formato JSON
+        string caminhoJson = "C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\registro.json";//Caminho de arquivo em formato JSON
 
         List<Tarefa> tarefas = new List<Tarefa>();//Lista para armazenar as tarefas
         int Id = 1;
@@ -43,7 +43,7 @@ namespace Projeto.Modulos
             try
             {
                 string json = JsonSerializer.Serialize(tarefas, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\tarefas.txt", json);
+                File.WriteAllText("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\registro.txt", json);
             }
             catch (Exception ex)
             {
@@ -56,7 +56,7 @@ namespace Projeto.Modulos
         {
             try
             {
-                if (File.Exists("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\tarefas.txt"))
+                if (File.Exists("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\registro.txt"))
                 {
                     string json = File.ReadAllText("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\tarefas.txt");
                     tarefas = JsonSerializer.Deserialize<List<Tarefa>>(json) ?? new List<Tarefa>();
