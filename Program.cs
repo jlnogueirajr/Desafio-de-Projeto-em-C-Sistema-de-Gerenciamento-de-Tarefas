@@ -9,6 +9,9 @@ namespace GerenciadorTarefas
         static void Main(string[] args)
         {
             Gerenciador gerenciador = new Gerenciador();//criando um objeto gerenciador para usar as funcoes
+            gerenciador.CarregarTarefasDoArquivo();
+
+
 
             void Titulo()
             {
@@ -28,6 +31,7 @@ namespace GerenciadorTarefas
                 Console.WriteLine("0 - Sair");
 
                 Console.Write("\nDigite a opção: ");
+               
                 string opcaoEscolhida = Console.ReadLine()!;
                 int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
@@ -39,7 +43,7 @@ namespace GerenciadorTarefas
                         gerenciador.AdicionarTarefa(descricao);
                         Thread.Sleep(2000);
                         Console.WriteLine("\nSua tarefa foi adicionada com sucesso\n");
-                        Thread.Sleep(2000);
+                        Thread.Sleep(1000);
                         Console.WriteLine("Tecle ENTER para voltar ao menu !!");
                         Console.ReadLine();
                         Console.Clear();
@@ -47,9 +51,13 @@ namespace GerenciadorTarefas
                         break;
 
                     case 2:gerenciador.ListarTarefas();
+                        
                         Thread.Sleep(2000);
+                        Console.WriteLine("\nTecle ENTER para voltar ao menu !!");
+                        Console.ReadLine();
                         Console.Clear();
                         ExibirOpcoesMenu();
+                        
                         break;
 
 
@@ -64,6 +72,7 @@ namespace GerenciadorTarefas
 
             }
 
+            //Inicio do programa
             Titulo();
             ExibirOpcoesMenu();
 
