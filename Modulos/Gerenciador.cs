@@ -58,7 +58,7 @@ namespace Projeto.Modulos
             {
                 if (File.Exists("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\registro.txt"))
                 {
-                    string json = File.ReadAllText("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\tarefas.txt");
+                    string json = File.ReadAllText("C:\\Users\\Xabloncio\\Desktop\\projeto\\Desafio-de-Projeto-em-C-Sistema-de-Gerenciamento-de-Tarefas\\registro.txt");
                     tarefas = JsonSerializer.Deserialize<List<Tarefa>>(json) ?? new List<Tarefa>();
 
                     // Garante que o próximo ID seja sempre o maior + 1
