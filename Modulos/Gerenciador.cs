@@ -35,6 +35,41 @@ namespace Projeto.Modulos
             {
                 Console.WriteLine($"{tarefa.Id}. {tarefa.Descricao} | Status: {tarefa.Status} | Criada em: {tarefa.DataCriacao}");
             }
+            Console.WriteLine($"\nVoce tem: {tarefas.Count} tarefas adicionadas na lista");
+        }
+
+        //Função para verificar status de cada tarefa e se for necessario mudar de pendente --> em andamento --> concluido
+        public void AtualizarStatusDeTarefa(int id, string novoStatus)
+        {
+            Tarefa tarefa = tarefas.FirstOrDefault(t => t.Id == id);
+
+            if (tarefa != null)
+            {
+                tarefa.Status = novoStatus;
+                SalvarTarefasEmJson();
+                Console.WriteLine($"\nTerefa {id} atualizada para status: {novoStatus}");
+            }
+            else
+            {
+                Console.WriteLine("\nTerefa nao encontrada");
+            }
+        }
+
+        //funçao para atualizar a descriçao das tarefas por meio do ID
+        public void AtualizarDescricao(int id, string novaDescricao)
+        {
+            Tarefa tarefa = tarefas.FirstOrDefault(t => t.Id == id);
+
+            if (tarefa != null)
+            {
+                tarefa.Descricao = novaDescricao;
+                SalvarTarefasEmJson();
+                Console.WriteLine($"\nTarefa {id} atualizada para descrição: {novaDescricao}");
+            }
+            else
+            {
+                Console.WriteLine("\nTerefa nao encontrada");
+            }
         }
 
         //funcao para adicionar um arquivo.json com os registros de tarefas

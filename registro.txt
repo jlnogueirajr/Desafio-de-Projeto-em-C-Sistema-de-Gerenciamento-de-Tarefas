@@ -1,14 +1,14 @@
 [
   {
     "Id": 1,
-    "Descricao": "adicionando registros",
-    "Status": "Pendente",
-    "DataCriacao": "2025-06-23T14:09:09.8611453-03:00"
+    "Descricao": "Estudar Construtores em Csharp",
+    "Status": "Em andamento",
+    "DataCriacao": "2025-06-25T10:16:15.6216942-03:00"
   },
   {
     "Id": 2,
-    "Descricao": "testando registros",
-    "Status": "Pendente",
-    "DataCriacao": "2025-06-23T14:09:22.0848317-03:00"
+    "Descricao": "fazer caf\u00E9 para estudar",
+    "Status": "Concluido",
+    "DataCriacao": "2025-06-25T10:16:40.1652933-03:00"
   }
 ]
