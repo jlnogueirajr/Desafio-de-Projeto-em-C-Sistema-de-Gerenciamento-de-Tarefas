@@ -33,7 +33,7 @@ namespace Projeto.Modulos
 
             foreach (Tarefa tarefa in tarefas)//laço de repetição onde ao ser chamada mostra a tarefa por ID, Descrição, Status atual e a data de criação
             {
-                Console.WriteLine($"{tarefa.Id}. {tarefa.Descricao} | Status: {tarefa.Status} | Criada em: {tarefa.DataCriacao}");
+                Console.WriteLine($"{tarefa.Id}. {tarefa.Descricao} | Status: {tarefa.Status} | {tarefa.DataCriacao}");
             }
             Console.WriteLine($"\nVoce tem: {tarefas.Count} tarefas adicionadas na lista");
         }
